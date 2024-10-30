@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    align-items: center;
+    padding: 0px;
+    background-color: #131313;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6600;
+    margin: 10px 0px 21px 0px;
+}
+
+p {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#scores p {
+    
+    margin: 10px 0;
+}
+
+img {
+    display: inline;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height:100%;
+}
+  
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.header {
+    align-items: center;
+    text-align:center;
+    vertical-align: middle;
+    padding: 0px;
+    background-color: #fff;
+   
+}
+
+.logo {
+    align-items: center;
+    text-align:center;
+    vertical-align: middle;
+    padding: 0px;
+    background-color: #fff;
+   
+}
+
+.container1 {
+    align-items: center;
+    margin: 50px;
+    padding: 5px 20px 20px 20px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.container2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+#header1 {
+    
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#current-date-time {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+    color: rgb(175, 0, 0);
+    text-shadow:
+      0 0 7px rgb(255, 196, 196),
+      0 0 10px rgb(255, 196, 196),
+      0 0 21px rgb(255, 135, 135),
+      0 0 42px rgb(219, 108, 108),
+      0 0 82px rgb(219, 108, 108),
+      0 0 92px rgb(219, 108, 108),
+      0 0 102px rgb(219, 108, 108),
+      0 0 151px rgb(219, 108, 108);
+}
+
+.pink-score {
+    background-color: pink;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.red-score {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.green-score {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.blue-score {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.violet-score {
+    background-color: violet;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
